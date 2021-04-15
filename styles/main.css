@@ -1,9 +1,120 @@
+.mainMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 70px;
+}
+.mainMenu li {
+  display: flex;
+  justify-content: space-between;
+}
+.mainMenu li:hover {
+  background-color: crimson;
+}
+.mainMenu li a {
+  color: white;
+  text-decoration: none;
+  padding: 1.3rem 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logo img {
+  display: flex;
+  justify-content: flex-start;
+  width: 14rem;
+  height: auto;
+  float: left;
+}
+
+.header {
+  max-width: 70vw;
+  margin: auto;
+}
+
 body {
   background-image: url("../design/bg_001.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+img {
+  width: 16rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white_phone {
+  position: relative;
+  bottom: -9vw;
+  left: 34.1vw;
+  width: 20rem;
+  height: auto;
+  display: flex;
+}
+
+.black_phone {
+  position: relative;
+  display: flex;
+  width: 20rem;
+  height: auto;
+  left: 53vw;
+  bottom: 23.5vw;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 3.25rem;
+  text-align: left;
+  margin: 12% 0 5% 0%;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20rem;
+  right: 40rem;
+  text-align: left;
+}
+section p {
+  color: white;
+  font-size: 1vw;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+article {
+  width: 40%;
+}
+
+button {
+  text-align: center;
+  border-radius: 0.4rem;
+  padding: 1.4rem;
+  width: 14rem;
+  margin-top: 3.1rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.learn_more {
+  background-color: #54be57;
+  font-size: 1.1rem;
+}
+
+.get_the_app {
+  background-color: #3498dc;
+  margin-right: 1.1rem;
+  font-size: 1.1rem;
 }
 
 html {
