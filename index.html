@@ -6,6 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Mobile landing Page again in scss</title>
     <link rel="stylesheet" href="./styles/main.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="overlay has-fade"></div>
+
+      <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+        <a href="#" class="header__logo">
+          <img src="./design/logo_001.png" alt="challenge" />
+        </a>
+
+        <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <div class="header__links hide-for-mobile">
+          <a href="#">PRODUCTS</a>
+          <a href="#">PRICES</a>
+          <a href="#">BLOG</a>
+          <a href="#">TEAM</a>
+          <a href="#">LOGIN</a>
+          <a href="#">SIGN UP</a>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
