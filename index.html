@@ -4,42 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Mobile landing Page again in scss</title>
+    <title>Drop Down Hamburger Menu</title>
     <link rel="stylesheet" href="./styles/main.css" />
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <header class="header">
-      <div class="overlay has-fade"></div>
-
-      <nav class="container container--pall flex flex-jc-sb flex-ai-c">
-        <a href="#" class="header__logo">
-          <img src="./design/logo_001.png" alt="challenge" />
-        </a>
-
-        <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-
-        <div class="header__links hide-for-mobile">
-          <a href="#">PRODUCTS</a>
-          <a href="#">PRICES</a>
-          <a href="#">BLOG</a>
-          <a href="#">TEAM</a>
-          <a href="#">LOGIN</a>
-          <a href="#">SIGN UP</a>
-        </div>
-      </nav>
-    </header>
+    <!-- the navigation section  -->
+    <nav>
+      <div class="logo"><h1>CLEAR THE AIR...</h1></div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">PRICES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">TEAM</a></li>
+        <li><a href="#">LOGIN</a></li>
+        <li><a href="#">SIGN UP</a></li>
+      </ul>
+    </nav>
+    <!-- the logo section  -->
+    <div class="logo1">
+      <a href="#"
+        ><img
+          src="./img/logo_001.png"
+          alt="logo of the Company"
+          class="logo_of_the_Company"
+      /></a>
+    </div>
+    <!-- the two mobiles photos section -->
+    <div class="two-phones">
+      <a href="#"
+        ><img
+          src="./design/phone_001.png"
+          alt="white phone"
+          class="white_phone"
+      /></a>
+      <a href="#"
+        ><img
+          src="./design/phone_002.png"
+          alt="black phone"
+          class="black_phone"
+      /></a>
+    </div>
+    <!-- The h1 section -->
+    <div class="h1_title">
+      <h1>
+        Make your Startup web <br />
+        with our template
+      </h1>
+    </div>
+    <!-- The paragraph section -->
+    <div class="lorem">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis <br />
+        architecto quo quis. Hic quod, asperiores at numquam esse tenetur <br />
+        suscipit voluptatibus cum reiciendis recusandae nisi incidunt sapiente
+        <br />
+        exercitationem. Veniam, aut?
+      </p>
+    </div>
+    <!-- The buttons section -->
+    <div class="green_blue">
+      <a href="#"
+        ><button class="learn_more" type="button">Learn More</button></a
+      >
+      <a href="#"
+        ><button class="get_the_app" type="button">Get the App</button></a
+      >
+    </div>
   </body>
 </html>
