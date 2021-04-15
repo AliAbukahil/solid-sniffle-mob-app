@@ -1,6 +1,27 @@
-nav {
-  a {
+.mainMenu {
+  li {
+    display: inline-block;
+    padding: 1.5rem;
   }
+  a {
+    display: inline-block;
+    padding: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.4rem;
+  }
+}
+
+.logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: absolute;
+  left: 15rem;
+  top: 6rem;
   img {
+    width: 12rem;
+    height: auto;
   }
 }
